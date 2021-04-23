@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600&display=swap');
+
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Asap', sans-serif;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  background: white;
+  padding: 2vh;
+}
+
+body{
+  background: #222222;
+}
+
+.score-rectangle{
+  position: relative;
+  padding-top: 50px;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  margin:auto;
+  justify-content: center;
+  margin-top : 7vh;
+  height:200px;
+  width:300px;
+  border: solid;
+  border-color: white;
+}
+
+
+.badge{
+  background: #fa4646;
+  color: white;
+}
+
+#user{
+  position: absolute;
+  margin-top: 30px;
+  font-size: 20px;
+  left: -22px;
+  padding: 5px;
+}
+
+#computer{
+  position: absolute;
+  margin-top: 30px;
+  font-size: 20px;
+  left: 270px;
+  padding: 5px;
+}
+
+.result{
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.choices{
+  display: flex;
+  justify-content: center;
+  margin-top: 7vh;
+}
+
+.p{
+  padding: 1rem;
+  border:solid white;
+  border-radius: 50%;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  transition: all 1s ease;
+}
+
+.p:hover{
+  background: #161414;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+
+.s{
+  padding: 1rem;
+  border:solid white;
+  border-radius: 50%;
+  transition: all 1s ease;
+}
+
+.s:hover{
+  background: #161414;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+
+.r{
+  padding: 1rem;
+  border:solid white;
+  border-radius: 50%;
+  transition: all 1s ease;
+}
+
+.r:hover{
+  background: #161414;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+
+.action-message{
+  display: flex;
+  justify-content: center;
+  color:white;
+  margin-top:7vh;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.border-green{
+  border: 4px solid green;
+  box-shadow: 0 0 10px green;
+}
+
+.border-grey{
+  border: 4px solid #737973;
+  box-shadow: 0 0 10px #6c706c;
+}
+
+.border-red{
+  border: 4px solid #c4090f;
+  box-shadow: 0 0 10px #bc020d;
+}
